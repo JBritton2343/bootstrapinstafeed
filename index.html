@@ -2,22 +2,63 @@
 <html lang="en">
     <head>
         <title>Simple Instagram Post</title>
+        <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
+        <link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"
+			integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM"
+			crossorigin="anonymous"
+		/>
     </head>
     <body>
-        <div id="wrapper">
-            <div id="flex-cont">
-            <div id="box one"><h1>My First Picture</h1>
-             <img src="https://raw.githubusercontent.com/breatheco-de/exercise-instagram-post/master/preview.png">
-             <!--<div id="paradiv">
-             <p>Augue mauris augue neque gravida in fermentum et.<br>
-                Consequat interdum varius sit amet mattis vulputate enim nulla. <br>
-                Tincidunt praesent semper feugiat nibh sed pulvinar proin gravida hendrerit.<br>
-                Quis lectus nulla at volutpat diam. Urna nunc id cursus metus aliquam eleifend mi.<br>
-                Amet est placerat in egestas erat. Urna nunc id cursus metus aliquam eleifend mi in nulla.<br>
-                Euismod elementum nisi quis eleifend quam adipiscing vitae proin. </p></div>
-            </div>-->
-            
+        <div class="container-fluid d-flex">
+            <div class="gridandfeedicons ">
+               <button class="gridbutton btn-sm-center"> <i class="fa fas-grid-2-sm-center"></i></button>
+               <button class="feedbutton btn-sm-center"><i class="fa fas-block-sm-center"></i></button>
+            </div>
+            <i class="fa fas-instagram content-sm-start">
+            <h3 class="text-sm-start">INSTAGRAM</h3></i>
+            <button class="btn btn-success-sm-end" type="submit">Create a Post</button>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
         </div>
+        
+            <div class="row">
+                <div class="col-4 vstack gap-3 img-thumbnail-start">
+                    <img src="./crowley.jpg" alt="crowley">
+                    <img src="./johndee.jpg" alt="dee">
+                    <img src="./LaVey.jpg" alt="LaVey">
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-4 vstack gap-3 img-thumnail-center">
+                    <img src="./wand.jpg" alt="wand">
+                    <img src="./crystalball.jpg" alt="crystal ball">
+                    <img src="athame.jpg" alt="athame"
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 vstack gap-3 img-thumbnail-end">
+                    <img src="./necromicon" alt="necronomicon">
+                    <img src="./KoS.jpg" alt="Key of Solomon">
+                    <img src="./book 4.jpg" alt="Book4">
+                </div>
+            </div>
+            <div class="blockview d-block" scroll
+
+        </div>
+        <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     </body>
 </html>
