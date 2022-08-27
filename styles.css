@@ -38,3 +38,6 @@ body{
 #buttons{
     size: 10px;
 }
+#main{
+    align-content: center;
+}
