@@ -32,3 +32,9 @@ body{
     align-items: center;
     
 }
+.text{
+    font-size: 10px;
+}
+#buttons{
+    size: 10px;
+}
