@@ -39,5 +39,5 @@ body{
     size: 10px;
 }
 #main{
-    align-content: center;
+    justify-content: center;
 }
